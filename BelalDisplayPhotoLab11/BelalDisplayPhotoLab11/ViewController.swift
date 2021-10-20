@@ -42,13 +42,13 @@ class ViewController: UIViewController {
     case 4: backImage.isEnabled = true
         imageView.image = UIImage(named: imageArray[3])
         nameOfImage.text = imageLable[3]
-    case 5: backImage.isEnabled = true
+    case 5: nextImage.isEnabled = true
         imageView.image = UIImage(named: imageArray[4])
         nameOfImage.text = imageLable[4]
     case 6: nextImage.isEnabled = false
         imageView.image = UIImage(named: imageArray[5])
         nameOfImage.text = imageLable[5]
-    default: number = 1
+    default: number = 0
     }
     }
 

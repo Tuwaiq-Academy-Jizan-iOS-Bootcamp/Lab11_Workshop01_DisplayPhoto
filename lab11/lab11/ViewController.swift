@@ -20,6 +20,9 @@ class ViewController: UIViewController {
    
     
     @IBAction func nextButton(_ sender: Any) {
+        if index == 3 {
+            nameLabel.text = "the last"
+        }else{
         if index < arrayphot1.count - 1 {
             index += 1
         }else {
@@ -28,9 +31,12 @@ class ViewController: UIViewController {
         imageDice.image = UIImage(named: arrayphot1[index] )
         nameLabel.text = arrayphot1[index]
     }
-    
+    }
     
     @IBAction func backButton(_ sender: Any) {
+        if index == 0 {
+            nameLabel.text = "the first"
+        }else{
         if index > 0 {
             index -= 1
         }else {
@@ -39,6 +45,8 @@ class ViewController: UIViewController {
         imageDice.image = UIImage(named: arrayphot1[index] )
         nameLabel.text = arrayphot1[index]
     }
+    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()

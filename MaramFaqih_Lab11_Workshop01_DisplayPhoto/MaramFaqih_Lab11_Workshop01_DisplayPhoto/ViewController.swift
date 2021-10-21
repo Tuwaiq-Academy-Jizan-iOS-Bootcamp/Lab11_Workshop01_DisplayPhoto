@@ -41,24 +41,15 @@ class ViewController: UIViewController {
             }
            
             if (index != (imagesOnView.count-1)){
-                
                 index += 1
-                //print (index,imagesOnView[index],"next")
-                viewPicture.image=UIImage(named: imagesOnView[index])
-                labelOnview.text = imagesOnView[index]
                 
-                if(index==imagesOnView.count-1){
+                }else{
                     index = 0
-                }}else{
-                    index = 0
-                    //print (index,imagesOnView[index],"next","else")
-                    viewPicture.image=UIImage(named: imagesOnView[index])
-                    labelOnview.text = imagesOnView[index]
-                    
-                   
                 }
          
-               
+            print (index,imagesOnView[index],"next")
+            viewPicture.image=UIImage(named: imagesOnView[index])
+            labelOnview.text = imagesOnView[index]
                     
             }
         
@@ -68,37 +59,25 @@ class ViewController: UIViewController {
         
        if firstClick == true{
            firstClick = false
-           index = imagesOnView.count
-       }
-      
+           index = imagesOnView.count-1
+        }
             if (index != 0){
-              
                 index -= 1
-                //print (index,imagesOnView[index],"back")
-                viewPicture.image=UIImage(named: imagesOnView[index])
-                labelOnview.text = imagesOnView[index]
-               
-                if(index==0){
-                    index = imagesOnView.count
-                }
-                
-            }
+             }
         
                else{
-                   //print (index,imagesOnView[index],"back","else")
-                   index = imagesOnView.count
-                   viewPicture.image=UIImage(named: imagesOnView[index-1])
-                   labelOnview.text = imagesOnView[index-1]
-                  
-                }
-                
-              
-                
-      
+                   index = imagesOnView.count-1
+               }
+        
+        print (index,imagesOnView[index],"back")
+        viewPicture.image=UIImage(named: imagesOnView[index])
+        labelOnview.text = imagesOnView[index]
           }
        }
+ 
             
 }
+
     
 
 

@@ -17,18 +17,21 @@ class ViewController: UIViewController {
     var arrayOfname =
     ["white car","red car","black car"]
     var value = 0
-  
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        backEnable.isEnabled = false
+                nextEnable.isEnabled = true
     }
-    func doThings (){
+    func getIageAndName (){
         switch value {
     case 0:  backEnable.isEnabled = false
             nextEnable.isEnabled = true
         imageView.image = UIImage(named:arrayOfImage[0])
              label.text = String(arrayOfname[0])
     case 1: backEnable.isEnabled = true
+            nextEnable.isEnabled = true
         imageView.image = UIImage(named:arrayOfImage[1])
              label.text = (arrayOfname[1])
     default:
@@ -43,13 +46,12 @@ class ViewController: UIViewController {
     
     @IBAction func backBu(_ sender: UIButton) {
         value = value - 1
-        doThings()
-        
+        getIageAndName()
         
     }
     @IBAction func nextBU(_ sender: UIButton) {
         value = value + 1
-        doThings()
+       getIageAndName()
         
     }
     

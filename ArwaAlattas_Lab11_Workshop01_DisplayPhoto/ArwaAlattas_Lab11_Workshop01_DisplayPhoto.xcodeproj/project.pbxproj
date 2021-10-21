@@ -16,9 +16,9 @@
 		AF120FE82720759900DDD366 /* ArwaAlattas_Lab11_Workshop01_DisplayPhotoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF120FE72720759900DDD366 /* ArwaAlattas_Lab11_Workshop01_DisplayPhotoTests.swift */; };
 		AF120FF22720759900DDD366 /* ArwaAlattas_Lab11_Workshop01_DisplayPhotoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF120FF12720759900DDD366 /* ArwaAlattas_Lab11_Workshop01_DisplayPhotoUITests.swift */; };
 		AF120FF42720759900DDD366 /* ArwaAlattas_Lab11_Workshop01_DisplayPhotoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF120FF32720759900DDD366 /* ArwaAlattas_Lab11_Workshop01_DisplayPhotoUITestsLaunchTests.swift */; };
-		AF121001272113EB00DDD366 /* image1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AF121000272113EB00DDD366 /* image1.jpeg */; };
-		AF121003272113F500DDD366 /* image2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AF121002272113F500DDD366 /* image2.jpeg */; };
-		AF121005272113FB00DDD366 /* image3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AF121004272113FB00DDD366 /* image3.jpeg */; };
+		AF1210072721364E00DDD366 /* image1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AF1210062721364E00DDD366 /* image1.jpeg */; };
+		AF1210092721366200DDD366 /* image2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AF1210082721366200DDD366 /* image2.jpeg */; };
+		AF12100B272136BD00DDD366 /* image3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AF12100A272136BD00DDD366 /* image3.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,9 +52,9 @@
 		AF120FED2720759900DDD366 /* ArwaAlattas_Lab11_Workshop01_DisplayPhotoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArwaAlattas_Lab11_Workshop01_DisplayPhotoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF120FF12720759900DDD366 /* ArwaAlattas_Lab11_Workshop01_DisplayPhotoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArwaAlattas_Lab11_Workshop01_DisplayPhotoUITests.swift; sourceTree = "<group>"; };
 		AF120FF32720759900DDD366 /* ArwaAlattas_Lab11_Workshop01_DisplayPhotoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArwaAlattas_Lab11_Workshop01_DisplayPhotoUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		AF121000272113EB00DDD366 /* image1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = image1.jpeg; path = ../../../../image1.jpeg; sourceTree = "<group>"; };
-		AF121002272113F500DDD366 /* image2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = image2.jpeg; path = ../../../../image2.jpeg; sourceTree = "<group>"; };
-		AF121004272113FB00DDD366 /* image3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = image3.jpeg; path = ../../../../image3.jpeg; sourceTree = "<group>"; };
+		AF1210062721364E00DDD366 /* image1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = image1.jpeg; path = ../../image1.jpeg; sourceTree = "<group>"; };
+		AF1210082721366200DDD366 /* image2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = image2.jpeg; path = ../../image2.jpeg; sourceTree = "<group>"; };
+		AF12100A272136BD00DDD366 /* image3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = image3.jpeg; path = ../../image3.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,9 +110,9 @@
 				AF120FD42720759800DDD366 /* ViewController.swift */,
 				AF120FD62720759800DDD366 /* Main.storyboard */,
 				AF120FD92720759900DDD366 /* Assets.xcassets */,
-				AF121000272113EB00DDD366 /* image1.jpeg */,
-				AF121002272113F500DDD366 /* image2.jpeg */,
-				AF121004272113FB00DDD366 /* image3.jpeg */,
+				AF12100A272136BD00DDD366 /* image3.jpeg */,
+				AF1210082721366200DDD366 /* image2.jpeg */,
+				AF1210062721364E00DDD366 /* image1.jpeg */,
 				AF120FDB2720759900DDD366 /* LaunchScreen.storyboard */,
 				AF120FDE2720759900DDD366 /* Info.plist */,
 			);
@@ -247,11 +247,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF120FDD2720759900DDD366 /* LaunchScreen.storyboard in Resources */,
-				AF121003272113F500DDD366 /* image2.jpeg in Resources */,
+				AF1210092721366200DDD366 /* image2.jpeg in Resources */,
 				AF120FDA2720759900DDD366 /* Assets.xcassets in Resources */,
 				AF120FD82720759800DDD366 /* Main.storyboard in Resources */,
-				AF121001272113EB00DDD366 /* image1.jpeg in Resources */,
-				AF121005272113FB00DDD366 /* image3.jpeg in Resources */,
+				AF1210072721364E00DDD366 /* image1.jpeg in Resources */,
+				AF12100B272136BD00DDD366 /* image3.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

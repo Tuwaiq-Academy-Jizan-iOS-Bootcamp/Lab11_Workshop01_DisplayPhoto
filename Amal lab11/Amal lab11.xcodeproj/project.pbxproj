@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E8DB91727209619003DAE20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8DB91627209619003DAE20 /* AppDelegate.swift */; };
+		1E8DB91927209619003DAE20 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8DB91827209619003DAE20 /* SceneDelegate.swift */; };
+		1E8DB91B27209619003DAE20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8DB91A27209619003DAE20 /* ViewController.swift */; };
+		1E8DB91E27209619003DAE20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E8DB91C27209619003DAE20 /* Main.storyboard */; };
+		1E8DB9202720961C003DAE20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E8DB91F2720961C003DAE20 /* Assets.xcassets */; };
+		1E8DB9232720961C003DAE20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E8DB9212720961C003DAE20 /* LaunchScreen.storyboard */; };
+		1E8DB92E2720961C003DAE20 /* Amal_lab11Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8DB92D2720961C003DAE20 /* Amal_lab11Tests.swift */; };
+		1E8DB9382720961C003DAE20 /* Amal_lab11UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8DB9372720961C003DAE20 /* Amal_lab11UITests.swift */; };
+		1E8DB93A2720961C003DAE20 /* Amal_lab11UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8DB9392720961C003DAE20 /* Amal_lab11UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E8DB92A2720961C003DAE20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E8DB90B27209619003DAE20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E8DB91227209619003DAE20;
+			remoteInfo = "Amal lab11";
+		};
+		1E8DB9342720961C003DAE20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E8DB90B27209619003DAE20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E8DB91227209619003DAE20;
+			remoteInfo = "Amal lab11";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E8DB91327209619003DAE20 /* Amal lab11.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Amal lab11.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E8DB91627209619003DAE20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1E8DB91827209619003DAE20 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1E8DB91A27209619003DAE20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1E8DB91D27209619003DAE20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E8DB91F2720961C003DAE20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E8DB9222720961C003DAE20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1E8DB9242720961C003DAE20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E8DB9292720961C003DAE20 /* Amal lab11Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Amal lab11Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E8DB92D2720961C003DAE20 /* Amal_lab11Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amal_lab11Tests.swift; sourceTree = "<group>"; };
+		1E8DB9332720961C003DAE20 /* Amal lab11UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Amal lab11UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E8DB9372720961C003DAE20 /* Amal_lab11UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amal_lab11UITests.swift; sourceTree = "<group>"; };
+		1E8DB9392720961C003DAE20 /* Amal_lab11UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amal_lab11UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E8DB91027209619003DAE20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E8DB9262720961C003DAE20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E8DB9302720961C003DAE20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E8DB90A27209619003DAE20 = {
+			isa = PBXGroup;
+			children = (
+				1E8DB91527209619003DAE20 /* Amal lab11 */,
+				1E8DB92C2720961C003DAE20 /* Amal lab11Tests */,
+				1E8DB9362720961C003DAE20 /* Amal lab11UITests */,
+				1E8DB91427209619003DAE20 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E8DB91427209619003DAE20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E8DB91327209619003DAE20 /* Amal lab11.app */,
+				1E8DB9292720961C003DAE20 /* Amal lab11Tests.xctest */,
+				1E8DB9332720961C003DAE20 /* Amal lab11UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E8DB91527209619003DAE20 /* Amal lab11 */ = {
+			isa = PBXGroup;
+			children = (
+				1E8DB91627209619003DAE20 /* AppDelegate.swift */,
+				1E8DB91827209619003DAE20 /* SceneDelegate.swift */,
+				1E8DB91A27209619003DAE20 /* ViewController.swift */,
+				1E8DB91C27209619003DAE20 /* Main.storyboard */,
+				1E8DB91F2720961C003DAE20 /* Assets.xcassets */,
+				1E8DB9212720961C003DAE20 /* LaunchScreen.storyboard */,
+				1E8DB9242720961C003DAE20 /* Info.plist */,
+			);
+			path = "Amal lab11";
+			sourceTree = "<group>";
+		};
+		1E8DB92C2720961C003DAE20 /* Amal lab11Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1E8DB92D2720961C003DAE20 /* Amal_lab11Tests.swift */,
+			);
+			path = "Amal lab11Tests";
+			sourceTree = "<group>";
+		};
+		1E8DB9362720961C003DAE20 /* Amal lab11UITests */ = {
+			isa = PBXGroup;
+			children = (
+				1E8DB9372720961C003DAE20 /* Amal_lab11UITests.swift */,
+				1E8DB9392720961C003DAE20 /* Amal_lab11UITestsLaunchTests.swift */,
+			);
+			path = "Amal lab11UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E8DB91227209619003DAE20 /* Amal lab11 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E8DB93D2720961C003DAE20 /* Build configuration list for PBXNativeTarget "Amal lab11" */;
+			buildPhases = (
+				1E8DB90F27209619003DAE20 /* Sources */,
+				1E8DB91027209619003DAE20 /* Frameworks */,
+				1E8DB91127209619003DAE20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Amal lab11";
+			productName = "Amal lab11";
+			productReference = 1E8DB91327209619003DAE20 /* Amal lab11.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1E8DB9282720961C003DAE20 /* Amal lab11Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E8DB9402720961C003DAE20 /* Build configuration list for PBXNativeTarget "Amal lab11Tests" */;
+			buildPhases = (
+				1E8DB9252720961C003DAE20 /* Sources */,
+				1E8DB9262720961C003DAE20 /* Frameworks */,
+				1E8DB9272720961C003DAE20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E8DB92B2720961C003DAE20 /* PBXTargetDependency */,
+			);
+			name = "Amal lab11Tests";
+			productName = "Amal lab11Tests";
+			productReference = 1E8DB9292720961C003DAE20 /* Amal lab11Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1E8DB9322720961C003DAE20 /* Amal lab11UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E8DB9432720961C003DAE20 /* Build configuration list for PBXNativeTarget "Amal lab11UITests" */;
+			buildPhases = (
+				1E8DB92F2720961C003DAE20 /* Sources */,
+				1E8DB9302720961C003DAE20 /* Frameworks */,
+				1E8DB9312720961C003DAE20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E8DB9352720961C003DAE20 /* PBXTargetDependency */,
+			);
+			name = "Amal lab11UITests";
+			productName = "Amal lab11UITests";
+			productReference = 1E8DB9332720961C003DAE20 /* Amal lab11UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E8DB90B27209619003DAE20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					1E8DB91227209619003DAE20 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					1E8DB9282720961C003DAE20 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 1E8DB91227209619003DAE20;
+					};
+					1E8DB9322720961C003DAE20 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 1E8DB91227209619003DAE20;
+					};
+				};
+			};
+			buildConfigurationList = 1E8DB90E27209619003DAE20 /* Build configuration list for PBXProject "Amal lab11" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E8DB90A27209619003DAE20;
+			productRefGroup = 1E8DB91427209619003DAE20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E8DB91227209619003DAE20 /* Amal lab11 */,
+				1E8DB9282720961C003DAE20 /* Amal lab11Tests */,
+				1E8DB9322720961C003DAE20 /* Amal lab11UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E8DB91127209619003DAE20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E8DB9232720961C003DAE20 /* LaunchScreen.storyboard in Resources */,
+				1E8DB9202720961C003DAE20 /* Assets.xcassets in Resources */,
+				1E8DB91E27209619003DAE20 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E8DB9272720961C003DAE20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E8DB9312720961C003DAE20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E8DB90F27209619003DAE20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E8DB91B27209619003DAE20 /* ViewController.swift in Sources */,
+				1E8DB91727209619003DAE20 /* AppDelegate.swift in Sources */,
+				1E8DB91927209619003DAE20 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E8DB9252720961C003DAE20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E8DB92E2720961C003DAE20 /* Amal_lab11Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E8DB92F2720961C003DAE20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E8DB9382720961C003DAE20 /* Amal_lab11UITests.swift in Sources */,
+				1E8DB93A2720961C003DAE20 /* Amal_lab11UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E8DB92B2720961C003DAE20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E8DB91227209619003DAE20 /* Amal lab11 */;
+			targetProxy = 1E8DB92A2720961C003DAE20 /* PBXContainerItemProxy */;
+		};
+		1E8DB9352720961C003DAE20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E8DB91227209619003DAE20 /* Amal lab11 */;
+			targetProxy = 1E8DB9342720961C003DAE20 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1E8DB91C27209619003DAE20 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E8DB91D27209619003DAE20 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1E8DB9212720961C003DAE20 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E8DB9222720961C003DAE20 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E8DB93B2720961C003DAE20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1E8DB93C2720961C003DAE20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E8DB93E2720961C003DAE20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FQP67L8BR4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Amal lab11/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AMAL.Amal-lab11";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E8DB93F2720961C003DAE20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FQP67L8BR4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Amal lab11/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AMAL.Amal-lab11";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1E8DB9412720961C003DAE20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FQP67L8BR4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AMAL.Amal-lab11Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Amal lab11.app/Amal lab11";
+			};
+			name = Debug;
+		};
+		1E8DB9422720961C003DAE20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FQP67L8BR4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AMAL.Amal-lab11Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Amal lab11.app/Amal lab11";
+			};
+			name = Release;
+		};
+		1E8DB9442720961C003DAE20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FQP67L8BR4;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AMAL.Amal-lab11UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Amal lab11";
+			};
+			name = Debug;
+		};
+		1E8DB9452720961C003DAE20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FQP67L8BR4;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AMAL.Amal-lab11UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Amal lab11";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E8DB90E27209619003DAE20 /* Build configuration list for PBXProject "Amal lab11" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E8DB93B2720961C003DAE20 /* Debug */,
+				1E8DB93C2720961C003DAE20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E8DB93D2720961C003DAE20 /* Build configuration list for PBXNativeTarget "Amal lab11" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E8DB93E2720961C003DAE20 /* Debug */,
+				1E8DB93F2720961C003DAE20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E8DB9402720961C003DAE20 /* Build configuration list for PBXNativeTarget "Amal lab11Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E8DB9412720961C003DAE20 /* Debug */,
+				1E8DB9422720961C003DAE20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E8DB9432720961C003DAE20 /* Build configuration list for PBXNativeTarget "Amal lab11UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E8DB9442720961C003DAE20 /* Debug */,
+				1E8DB9452720961C003DAE20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E8DB90B27209619003DAE20 /* Project object */;
+}

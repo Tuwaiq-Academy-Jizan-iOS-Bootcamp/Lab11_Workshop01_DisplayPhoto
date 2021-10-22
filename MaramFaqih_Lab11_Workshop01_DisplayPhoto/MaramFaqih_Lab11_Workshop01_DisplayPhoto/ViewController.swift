@@ -59,7 +59,7 @@ class ViewController: UIViewController {
         
        if firstClick == true{
            firstClick = false
-           index = imagesOnView.count-1
+           index = imagesOnView.count
         }
             if (index != 0){
                 index -= 1

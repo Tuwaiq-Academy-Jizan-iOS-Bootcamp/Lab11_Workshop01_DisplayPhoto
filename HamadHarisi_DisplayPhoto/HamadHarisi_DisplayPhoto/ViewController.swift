@@ -4,9 +4,7 @@ class ViewController: UIViewController {
 
     var index: Int = 0
     var myImages = ["tuwaiq academy","safcsp","Steve Jobs","Google Developers"]
- 
     @IBOutlet var viewImages: UIImageView!
-
     @IBOutlet var labelImage: UILabel!
     override func viewDidLoad()
     {
@@ -17,7 +15,8 @@ class ViewController: UIViewController {
 
     @IBAction func backButton(_ sender: Any)
     {
-    if index > 0 {
+    if index > 0
+    {
     index -= 1
     }
     else
